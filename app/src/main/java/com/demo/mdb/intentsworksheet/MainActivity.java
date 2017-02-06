@@ -48,21 +48,23 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        //Question 11: retrieve the result from the intent. Do not use get Intent, use the parameter
-        // data.
+        if (requestCode == 1 && resultCode == RESULT_OK) {
 
-        /* your code here */
+            //Question 11: retrieve the result from the intent. Do not use get Intent, use the parameter
+            // data.
 
-        //Question 12: Create a Bitmap object and set it to the data from the Intent. Use the key
-        // "data" to retrieve the Bitmap.
+            /* your code here */
 
-        /* your code here */
+            //Question 12: Create a Bitmap object and set it to the data from the Intent. Use the key
+            // "data" to retrieve the Bitmap.
 
-        //Question 13: create an imageView in the layout
-        //Question 14: set the imageView to the Bitmap
+            /* your code here */
 
-        /* your code here */
+            //Question 13: create an imageView in the layout
+            //Question 14: set the imageView to the Bitmap
 
-        //ye
+            /* your code here */
+        }
     }
 }
+
